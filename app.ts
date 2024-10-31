@@ -62,7 +62,9 @@ let boat: IBoat = {
 }
 
 console.log(car)
+
 console.log(plane)
+
 console.log(boat)
 
 
