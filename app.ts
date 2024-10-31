@@ -33,7 +33,7 @@ interface IBoat extends IVehicle {
 }
 
 interface IPlane extends IVehicle {
-    wingSpan: number
+    wingspan: number
 }
 
 let car: ICar = {
@@ -50,7 +50,7 @@ let plane: IPlane = {
     color: "White", 
     year: 2020, 
     power: 170000, 
-    wingSpan: 65 
+    wingspan: 65 
 }
 
 let boat: IBoat = {
@@ -62,10 +62,9 @@ let boat: IBoat = {
 }
 
 console.log(car)
-
 console.log(plane)
-
 console.log(boat)
+
 
 
 class VehicleService<T> {

@@ -20,7 +20,7 @@ let plane = {
     color: "White",
     year: 2020,
     power: 170000,
-    wingSpan: 65
+    wingspan: 65
 };
 let boat = {
     model: "Bella",
