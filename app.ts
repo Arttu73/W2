@@ -68,7 +68,7 @@ console.log(boat)
 
 
 class VehicleService<T> {
-    items: T[] = []
+    private items: T[] = []
 
     add(item: T) {
         this.items.push(item)
@@ -78,9 +78,11 @@ class VehicleService<T> {
         console.log(this.items)
     }
 }
-let cars = new VehicleService<ICar>
 
-let boats = new VehicleService<IBoat>
+
+let cars = new VehicleService<ICar>()
+
+let boats = new VehicleService<IBoat>()
 
 cars.add(car)
 boats.add(boat)
@@ -88,4 +90,3 @@ boats.add(boat)
 cars.list()
 
 boats.list()
-

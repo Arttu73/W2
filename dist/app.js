@@ -41,8 +41,8 @@ class VehicleService {
         console.log(this.items);
     }
 }
-let cars = new VehicleService;
-let boats = new VehicleService;
+let cars = new VehicleService();
+let boats = new VehicleService();
 cars.add(car);
 boats.add(boat);
 cars.list();
