@@ -88,5 +88,4 @@ cars.add(car)
 boats.add(boat)
 
 cars.list()
-
 boats.list()
