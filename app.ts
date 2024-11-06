@@ -75,8 +75,9 @@ class VehicleService<T> {
         return item
     }     
 
-    list() {
+    list(): T[] {
         console.log(this.items)
+        return this.items
     }
 }
 
