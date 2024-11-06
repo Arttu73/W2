@@ -70,9 +70,9 @@ console.log(boat)
 class VehicleService<T> {
     private items: T[] = []
 
-    add(item: T): T {
+    add(item: T): T[] {
         this.items.push(item)
-        return item
+        return this.items
     }     
 
     list(): T[] {

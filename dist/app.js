@@ -36,7 +36,7 @@ class VehicleService {
     items = [];
     add(item) {
         this.items.push(item);
-        return item;
+        return this.items;
     }
     list() {
         console.log(this.items);
