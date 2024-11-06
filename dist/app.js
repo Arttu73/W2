@@ -40,6 +40,7 @@ class VehicleService {
     }
     list() {
         console.log(this.items);
+        return this.items;
     }
 }
 let cars = new VehicleService;
