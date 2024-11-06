@@ -39,13 +39,12 @@ class VehicleService {
         return;
     }
     list() {
-        console.log(this.items);
-        return;
+        return this.items;
     }
 }
 let cars = new VehicleService;
 let boats = new VehicleService;
 cars.add(car);
 boats.add(boat);
-cars.list();
-boats.list();
+console.log(cars.list());
+console.log(boats.list());

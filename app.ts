@@ -75,9 +75,8 @@ class VehicleService<T> {
         return
     }     
 
-    list(): void {
-        console.log(this.items)
-        return 
+    list(): T[] {
+        return this.items
     }
 }
 
@@ -89,5 +88,5 @@ let boats = new VehicleService<IBoat>
 cars.add(car)
 boats.add(boat)
 
-cars.list()
-boats.list()
+console.log(cars.list())
+console.log(boats.list())
