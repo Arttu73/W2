@@ -82,9 +82,9 @@ class VehicleService<T> {
 }
 
 
-let cars = new VehicleService<ICar>
+let cars = new VehicleService
 
-let boats = new VehicleService<IBoat>
+let boats = new VehicleService
 
 cars.add(car)
 boats.add(boat)
