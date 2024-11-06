@@ -36,11 +36,11 @@ class VehicleService {
     items = [];
     add(item) {
         this.items.push(item);
-        return this.items;
+        return;
     }
     list() {
         console.log(this.items);
-        return this.items;
+        return;
     }
 }
 let cars = new VehicleService;
